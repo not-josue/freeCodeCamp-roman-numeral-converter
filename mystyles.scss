@@ -1,0 +1,34 @@
+@charset 'utf-8';
+
+// google font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+$family-primary: 'Open Sans', helvetica, sans-serif;
+
+
+
+// bulma
+
+// base
+@import './node_modules/bulma/sass/base/_all.sass';
+
+// elements
+@import './node_modules/bulma/sass/elements/button.sass'; // button
+@import './node_modules/bulma/sass/elements/container.sass'; // container
+@import './node_modules/bulma/sass/elements/table.sass'; // table
+@import './node_modules/bulma/sass/elements/title.sass'; // title
+
+// form
+@import './node_modules/bulma/sass/form/_all.sass';
+
+// helpers
+@import './node_modules/bulma/sass/helpers/color.sass'; // colors
+@import './node_modules/bulma/sass/helpers/flexbox.sass'; // flexbox
+@import './node_modules/bulma/sass/helpers/spacing.sass'; // spacing
+@import './node_modules/bulma/sass/helpers/typography.sass'; // typography
+@import './node_modules/bulma/sass/helpers/visibility.sass'; // visibility
+
+// hero
+@import './node_modules/bulma/sass/layout/hero.sass';
+
+// utilities
+@import './node_modules/bulma/sass/utilities/_all.sass';

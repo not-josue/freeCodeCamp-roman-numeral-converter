@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <title>Roman Numeral Converter</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="roman numeral converter for freeCodeCamp javascript algorithms and data structures certificate" />
+  <meta name="keywords"
+    content="freeCodeCamp, roman numeral converter, bulma css, vite, javascript algorithms and data structures" />
+  <meta name="author" content="Josue" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="mystyles.css" />
+</head>
+
+<body>
+
+  <main class="hero is-fullheight">
+    <!-- header start -->
+    <header class="hero-head has-background-danger">
+      <div class="container has-text-centered py-6">
+        <h1 class="title has-text-white has-text-weight-bold is-size-2 is-size-4-mobile">Roman Numeral Converter</h1>
+        <p class="subtitle has-text-weight-semibold is-size-6-mobile">Input an Arabic numeral to convert it to a Roman
+          numeral</p>
+      </div>
+    </header>
+    <!-- header end -->
+    <div class="hero-body is-flex is-flex-direction-column is-align-items-center">
+      <h2 class="title has-text-weight-bold is-size-4-mobile mb-6">Reference Table</h2>
+      <!-- table start -->
+      <div class="table-container">
+        <table class="table is-bordered">
+          <tbody id="arabicData" class="has-text-centered"></tbody>
+        </table>
+      </div>
+      <!-- table end -->
+      <!-- input start -->
+      <div class="container is-flex is-flex-direction-column">
+        <div class="is-flex mt-5">
+          <input type="text" class="input is-danger is-medium mr-5" autofocus>
+          <button class="button is-danger is-outlined is-medium">Submit</button>
+        </div>
+        <div class="has-text-centered mt-6">
+          <h2 id="output" class="title has-text-weight-bold is-size-4-mobile">Arabic to Roman</h2>
+        </div>
+      </div>
+      <!-- input end -->
+      <!-- output start -->
+
+      <!-- output end -->
+    </div>
+
+  </main>
+
+  <script type="module" src="/main.js"></script>
+
+</body>
+
+</html>
